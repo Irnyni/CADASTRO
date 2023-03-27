@@ -6,7 +6,7 @@
 
 .cab{
 
-    height: 60px;
+    height: 110px;
     display: flex;
     background-color: rgb(39, 12, 12);
     color: rgb(255, 255, 255);
@@ -17,22 +17,24 @@
     align-items: center;
     flex-direction: row;
     font-size: 50px;
+ 
 
  
  
 }
-.cab p{
+.cab p,a{
     padding-top: 15px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     border-right: 10px solid #850000;
     padding-right: 50px;
-  border-radius: 60px;
-  color: #f10e0e;
-    
+    border-radius: 60px;
+    color: #f10e0e;
+    transition: 300ms;
+
 }
 
 body{
-      background-color: rgb(97, 3, 3);
+      background-color: rgb(42, 8, 8);
       justify-content: center;
       display: flex;
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -192,7 +194,7 @@ a.nav-link{
 }
 
 .cab a:hover{
-
+    border-right: 7px solid #fffea5;
     color: #ff0303;
 
 }   
